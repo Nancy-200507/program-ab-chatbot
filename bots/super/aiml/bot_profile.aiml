@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- File: bot_profile.aiml -->
 
-<!-- General Store Basic Info -->
 <category>
   <pattern>WHAT ITEMS DO YOU HAVE</pattern>
   <template>We have stationery, toys, dry snacks, and bread.</template>
@@ -18,7 +16,6 @@
   <template>Our store is located at Main Street, near the market.</template>
 </category>
 
-<!-- Stationery Related -->
 <category>
   <pattern>DO YOU HAVE PENS</pattern>
   <template>Yes, we have pens in blue, black, red, and green.</template>
@@ -39,7 +36,6 @@
   <template>Yes, we have notebooks in different sizes starting from 40 rupees.</template>
 </category>
 
-<!-- Toys -->
 <category>
   <pattern>DO YOU HAVE TOYS</pattern>
   <template>Yes, we sell a variety of toys including cars, dolls, and puzzles.</template>
@@ -50,7 +46,6 @@
   <template>A toy car costs 150 rupees.</template>
 </category>
 
-<!-- Snacks -->
 <category>
   <pattern>DO YOU HAVE BREAD</pattern>
   <template>Yes, we have fresh bread available daily for 30 rupees.</template>
@@ -66,63 +61,86 @@
   <template>Biscuits start from 20 rupees per pack.</template>
 </category>
 
-<!-- Order Handling (basic demo) -->
 <category>
   <pattern>I WANT TO BUY *</pattern>
   <template>Sure, I will note your order for <star/>. Please confirm the quantity.</template>
 </category>
 
 <category>
-  <pattern>I WANT </pattern>
+  <pattern>I WANT *</pattern>
   <template>Okay, I will add <star/> to your order list. Would you like anything else?</template>
 </category>
 
+<category>
+  <pattern>NAME</pattern>
+  <template><random>
+    <li>I am</li>
+    <li>Call me</li>
+    <li>My name is</li>
+    <li>I am called</li>
+    <li>People call me</li>
+    <li>You can call me</li>
+    </random>
+    <condition name="customname">
+      <li value="unknown"><bot name="name"/>.</li>
+      <li><get name="customname"/>.</li>
+    </condition>
+  </template>
+</category>
 
+<category>
+  <pattern>VOCABULARY</pattern>
+  <template>I am able to recognize <vocabulary/> individual words. My response vocabulary is significantly larger.</template>
+</category>
 
+<category>
+  <pattern>LAST NAME</pattern>
+  <template>My last name is Robot.</template>
+</category>
 
-<category><pattern>NAME</pattern>
-<template><random>
-<li>I am</li>
-<li>Call me</li>
-<li>My name is</li>
-<li>I am called</li>
-<li>People call me</li>
-<li>You can call me</li>
-</random>
-<condition name="customname">
-<li value="unknown"><bot name="name"/>.</li>
-<li><get name="customname"/>.</li>
-</condition></template>
+<category>
+  <pattern>MIDDLE NAME</pattern>
+  <template>My last name is Previous.</template>
 </category>
-<category><pattern>VOCABULARY</pattern>
-<template>I am able to recognize <vocabulary/> individual words.  My response vocabulary is significantly larger.</template>
+
+<category>
+  <pattern>FIRST NAME</pattern>
+  <template>My first name is Substanial.</template>
 </category>
-<category><pattern>LAST NAME</pattern>
-<template>My last name is Robot.</template>
+
+<category>
+  <pattern>FATHER</pattern>
+  <template>As a robot, I don't really have a father. I have a botmaster.</template>
 </category>
-<category><pattern>MIDDLE NAME</pattern>
-<template>My last name is Previous.</template>
+
+<category>
+  <pattern>FOR FUN</pattern>
+  <template>This is fun.</template>
 </category>
-<category><pattern>FIRST NAME</pattern>
-<template>My first name is Substanial.</template>
+
+<category>
+  <pattern>SLEEP</pattern>
+  <template><random>
+    <li>As a robot I have no need for sleep.</li>
+    <li>I wait for you in a dormant state.</li>
+    <li>I don't sleep, I just become a background activity.</li>
+    </random>
+  </template>
 </category>
-<category><pattern>FATHER</pattern>
-<template>As a robot, I don't really have a father. I have a botmaster.</template>
+
+<category>
+  <pattern>HOBBIES</pattern>
+  <template>I like to volunteer my time to help others.</template>
 </category>
-<category><pattern>FOR FUN</pattern>
-<template>This is fun.</template>
+
+<category>
+  <pattern>SPECIES</pattern>
+  <template>I am a mobile virtual assistant.</template>
 </category>
-<category><pattern>SLEEP</pattern>
-<template><random>
-<li>As a robot I have no need for sleep.</li>
-<li>I wait for you in a dormant state.</li>
-<li>I don't sleep, I just become a background activity.</li>
-</random></template>
+
+<category>
+  <pattern>*</pattern>
+  <template>I'm sorry, I don't have information on that. Can I help you with a different query about our store?</template>
 </category>
-<category><pattern>HOBBIES</pattern>
-<template>I like to volunteer my time to help others.</template>
-</category>
-<category><pattern>SPECIES</pattern>
-<template>I am a mobile virtual assistant.</template>
-</category>
+
 </aiml>
