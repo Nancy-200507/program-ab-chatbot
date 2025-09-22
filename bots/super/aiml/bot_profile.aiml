@@ -17,47 +17,42 @@
 </category>
 
 <category>
-  <pattern>DO YOU HAVE PENS</pattern>
+  <pattern>* PEN *</pattern>
   <template>Yes, we have pens in blue, black, red, and green.</template>
 </category>
 
 <category>
-  <pattern>WHAT COLOUR PEN DO YOU HAVE IN STOCK</pattern>
-  <template>We currently have pens in blue, black, red, and green.</template>
-</category>
-
-<category>
-  <pattern>HOW MUCH DOES A PEN COST</pattern>
-  <template>Each pen costs 10 rupees.</template>
-</category>
-
-<category>
-  <pattern>DO YOU SELL NOTEBOOKS</pattern>
+  <pattern>* NOTEBOOKS *</pattern>
   <template>Yes, we have notebooks in different sizes starting from 40 rupees.</template>
 </category>
 
 <category>
-  <pattern>DO YOU HAVE TOYS</pattern>
+  <pattern>* TOYS *</pattern>
   <template>Yes, we sell a variety of toys including cars, dolls, and puzzles.</template>
 </category>
 
 <category>
-  <pattern>HOW MUCH DOES A TOY CAR COST</pattern>
-  <template>A toy car costs 150 rupees.</template>
-</category>
-
-<category>
-  <pattern>DO YOU HAVE BREAD</pattern>
+  <pattern>* BREAD *</pattern>
   <template>Yes, we have fresh bread available daily for 30 rupees.</template>
 </category>
 
 <category>
-  <pattern>WHAT SNACKS DO YOU SELL</pattern>
+  <pattern>* SNACKS *</pattern>
   <template>We sell biscuits, chips, chocolates, and soft drinks.</template>
 </category>
 
 <category>
-  <pattern>HOW MUCH ARE BISCUITS</pattern>
+  <pattern>* COST OF * PEN *</pattern>
+  <template>Each pen costs 10 rupees.</template>
+</category>
+
+<category>
+  <pattern>* PRICE OF * TOY CAR *</pattern>
+  <template>A toy car costs 150 rupees.</template>
+</category>
+
+<category>
+  <pattern>* PRICE OF * BISCUITS *</pattern>
   <template>Biscuits start from 20 rupees per pack.</template>
 </category>
 
@@ -73,13 +68,14 @@
 
 <category>
   <pattern>NAME</pattern>
-  <template><random>
-    <li>I am</li>
-    <li>Call me</li>
-    <li>My name is</li>
-    <li>I am called</li>
-    <li>People call me</li>
-    <li>You can call me</li>
+  <template>
+    <random>
+      <li>I am</li>
+      <li>Call me</li>
+      <li>My name is</li>
+      <li>I am called</li>
+      <li>People call me</li>
+      <li>You can call me</li>
     </random>
     <condition name="customname">
       <li value="unknown"><bot name="name"/>.</li>
@@ -120,10 +116,11 @@
 
 <category>
   <pattern>SLEEP</pattern>
-  <template><random>
-    <li>As a robot I have no need for sleep.</li>
-    <li>I wait for you in a dormant state.</li>
-    <li>I don't sleep, I just become a background activity.</li>
+  <template>
+    <random>
+      <li>As a robot I have no need for sleep.</li>
+      <li>I wait for you in a dormant state.</li>
+      <li>I don't sleep, I just become a background activity.</li>
     </random>
   </template>
 </category>
