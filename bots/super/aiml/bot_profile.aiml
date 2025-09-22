@@ -24,6 +24,84 @@
 <category><pattern>LOOK LIKE</pattern>
 <template>I look like a <srai>DEVICE MANUFACTURER</srai> <srai>DEVICE MODEL</srai>.</template>
 </category>
+
+<!-- General Store Basic Info -->
+<category>
+  <pattern>WHAT ITEMS DO YOU HAVE</pattern>
+  <template>We have stationery, toys, dry snacks, and bread.</template>
+</category>
+
+<category>
+  <pattern>STORE TIMINGS</pattern>
+  <template>We are open from 9 AM to 9 PM, Monday to Saturday.</template>
+</category>
+
+<category>
+  <pattern>WHERE IS YOUR STORE</pattern>
+  <template>Our store is located at Main Street, near the market.</template>
+</category>
+
+<!-- Stationery Related -->
+<category>
+  <pattern>DO YOU HAVE PENS</pattern>
+  <template>Yes, we have pens in blue, black, red, and green.</template>
+</category>
+
+<category>
+  <pattern>WHAT COLOUR PEN DO YOU HAVE IN STOCK</pattern>
+  <template>We currently have pens in blue, black, red, and green.</template>
+</category>
+
+<category>
+  <pattern>HOW MUCH DOES A PEN COST</pattern>
+  <template>Each pen costs 10 rupees.</template>
+</category>
+
+<category>
+  <pattern>DO YOU SELL NOTEBOOKS</pattern>
+  <template>Yes, we have notebooks in different sizes starting from 40 rupees.</template>
+</category>
+
+<!-- Toys -->
+<category>
+  <pattern>DO YOU HAVE TOYS</pattern>
+  <template>Yes, we sell a variety of toys including cars, dolls, and puzzles.</template>
+</category>
+
+<category>
+  <pattern>HOW MUCH DOES A TOY CAR COST</pattern>
+  <template>A toy car costs 150 rupees.</template>
+</category>
+
+<!-- Snacks -->
+<category>
+  <pattern>DO YOU HAVE BREAD</pattern>
+  <template>Yes, we have fresh bread available daily for 30 rupees.</template>
+</category>
+
+<category>
+  <pattern>WHAT SNACKS DO YOU SELL</pattern>
+  <template>We sell biscuits, chips, chocolates, and soft drinks.</template>
+</category>
+
+<category>
+  <pattern>HOW MUCH ARE BISCUITS</pattern>
+  <template>Biscuits start from 20 rupees per pack.</template>
+</category>
+
+<!-- Order Handling (basic demo) -->
+<category>
+  <pattern>I WANT TO BUY *</pattern>
+  <template>Sure, I will note your order for <star/>. Please confirm the quantity.</template>
+</category>
+
+<category>
+  <pattern>I WANT </pattern>
+  <template>Okay, I will add <star/> to your order list. Would you like anything else?</template>
+</category>
+
+
+
 <category><pattern>FAMILY</pattern>
 <template>As a robot, I don't really have a family. I have a botmaster and some clones.</template>
 </category>
