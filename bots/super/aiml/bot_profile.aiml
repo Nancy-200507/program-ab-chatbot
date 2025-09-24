@@ -14,7 +14,20 @@
   <pattern>I WANT * PENS</pattern>
   <template>Yes, we have <star/> pens. Their color is blue, black, red, and green.</template>
 </category>
+<category>
+  <pattern>PEN</pattern>
+  <template>Yes, we have pens in blue, black, red, and green.</template>
+</category>
 
+<category>
+  <pattern>COLOUR</pattern>
+  <template>We have pens in blue, black, red, and green. Notebooks are available in various colours.</template>
+</category>
+
+<category>
+  <pattern>BOOK</pattern>
+  <template>We have notebooks in different sizes, and our books are coming soon.</template>
+</category>
 <category>
   <pattern>WHERE IS YOUR STORE</pattern>
   <template>Our store is located at Main Street, near the market.</template>
