@@ -2950,7 +2950,8 @@ I will remember your <lowercase><get name="familiarpredicate"/></lowercase>'s na
 <template>Yes</template>
 </category>
 <category><pattern>DOES A <SET>BIRD</SET> HAVE *</pattern>
-<template>u
+<template>unknown</template>
+</category>
 
 
 </aiml>
