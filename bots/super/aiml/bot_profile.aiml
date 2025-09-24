@@ -10,6 +10,10 @@
   <pattern>STORE TIMINGS</pattern>
   <template>We are open from 9 AM to 9 PM, Monday to Saturday.</template>
 </category>
+<category>
+  <pattern>I WANT * PENS</pattern>
+  <template>Yes, we have <star/> pens. Their color is blue, black, red, and green.</template>
+</category>
 
 <category>
   <pattern>WHERE IS YOUR STORE</pattern>
