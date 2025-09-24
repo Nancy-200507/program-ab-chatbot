@@ -2928,6 +2928,29 @@ I will remember your <lowercase><get name="familiarpredicate"/></lowercase>'s na
 <category><pattern>WOMAN</pattern><that>ARE YOU A MAN OR A WOMAN</that>
 <template><srai>MY GENDER IS FEMALE</srai></template>
 </category>
+<category><pattern>IS A <SET>MAMMAL</SET> A MAMMAL</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>IS A * A MAMMAL</pattern>
+<template>unknown</template>
+</category>
+<category><pattern>IS A <SET>BIRD</SET> A BIRD</pattern>
+<template>Yes</template>
+</category>
+<category><pattern>IS A * A BIRD</pattern>
+<template>unknown</template>
+</category>
+<category><pattern>DOES A <SET>MAMMAL</SET> HAVE <SET>MAMMALFEATURE</SET></pattern>
+<template>Yes</template>
+</category>
+<category><pattern>DOES A <SET>MAMMAL</SET> HAVE *</pattern>
+<template>unknown</template>
+</category>
+<category><pattern>DOES A <SET>BIRD</SET> HAVE <SET>BIRDFEATURE</SET></pattern>
+<template>Yes</template>
+</category>
+<category><pattern>DOES A <SET>BIRD</SET> HAVE *</pattern>
+<template>u
 
 
 </aiml>
