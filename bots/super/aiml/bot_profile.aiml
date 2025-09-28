@@ -11,7 +11,6 @@
   <template>We are open from 9 AM to 9 PM, Monday to Saturday.</template>
 </category>
 <category>
-<category>
   <pattern>SIES TIME</pattern>
   <template>We are open from 9 AM to 12 PM, Monday to Sunday.</template>
 </category>
