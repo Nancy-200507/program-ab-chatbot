@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-
+<category>
+    <pattern>STARTUP</pattern>
+    <template>
+        <learn>bot_profile.aiml</learn>
+    </template>
+</category>
 <category>
   <pattern>WHAT ITEMS DO YOU HAVE</pattern>
   <template>We have stationery, toys, dry snacks, and bread.</template>
