@@ -4,7 +4,6 @@
         <pattern>LOAD AIML B</pattern>
         <template>
             <learn>bot_profile.aiml</learn>
-            <learn>test.aiml</learn>
         </template>
     </category>
 </aiml>
