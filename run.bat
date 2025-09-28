@@ -1,3 +1,6 @@
+@echo off
+cd /d %~dp0
 java -cp lib/Ab.jar Main bot=super action=chat trace=false command="load aiml b"
+
 
 
