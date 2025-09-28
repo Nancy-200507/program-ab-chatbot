@@ -10,14 +10,17 @@
   <pattern>STORE TIMINGS</pattern>
   <template>We are open from 9 AM to 9 PM, Monday to Saturday.</template>
 </category>
+
 <category>
   <pattern>SIES TIME</pattern>
   <template>We are open from 9 AM to 12 PM, Monday to Sunday.</template>
 </category>
+
 <category>
   <pattern>I WANT * PENS</pattern>
   <template>Yes, we have <star/> pens. Their color is blue, black, red, and green.</template>
 </category>
+
 <category>
   <pattern>PEN</pattern>
   <template>Yes, we have pens in blue, black, red, and green.</template>
@@ -32,6 +35,7 @@
   <pattern>BOOK</pattern>
   <template>We have notebooks in different sizes, and our books are coming soon.</template>
 </category>
+
 <category>
   <pattern>WHERE IS YOUR STORE</pattern>
   <template>Our store is located at Main Street, near the market.</template>
